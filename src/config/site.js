@@ -72,20 +72,26 @@ export const siteConfig = {
   pricing: [
     {
       tier: "Starter",
+      price: "₹35,000",
+      duration: "starting at",
       idealFor: "Startups & Small Businesses",
-      features: ["Custom Landing Page", "Responsive Design", "Basic SEO", "Contact Form Integration"],
+      features: ["Custom Landing Page", "Responsive Design", "Basic SEO", "Contact Form Integration", "1 Month Free Support"],
       cta: "Start Building"
     },
     {
       tier: "Growth",
+      price: "₹85,000",
+      duration: "starting at",
       idealFor: "Scaling Companies",
-      features: ["Full Web Application", "CMS Integration", "Advanced Animations", "Analytics Setup", "API Integrations"],
+      features: ["Full Web Application", "CMS Integration", "Advanced Animations", "Analytics Setup", "API Integrations", "3 Months Free Support"],
       cta: "Scale Now"
     },
     {
-      tier: "Custom",
-      idealFor: "Enterprise & Complex Systems",
-      features: ["AI Implementations", "Custom Backend", "Mobile App", "Dedicated Support", "Infrastructure Setup"],
+      tier: "Enterprise",
+      price: "Custom",
+      duration: "tailored pricing",
+      idealFor: "Complex Systems & AI",
+      features: ["AI Implementations", "Custom Backend", "Mobile App", "Dedicated 24/7 Support", "Infrastructure Setup", "SLA Guarantee"],
       cta: "Request a Quote"
     }
   ]
