@@ -192,11 +192,18 @@
 }
 
 @media (max-width: 1024px) {
-  .projectGrid, .projectGrid.reversed {
+  .workGrid {
     grid-template-columns: 1fr;
-    gap: var(--space-lg);
   }
   
+  .projectCard {
+    grid-template-columns: 1fr;
+  }
+  
+  .projectInfo {
+    padding: var(--space-xl);
+  }
+
   .projectGrid.reversed .projectInfo {
     order: 1;
   }

@@ -142,10 +142,18 @@
 }
 
 @media (max-width: 900px) {
+  .pageWrapper {
+    padding-top: 80px;
+  }
+  
   .grid {
     grid-template-columns: 1fr;
   }
   .fullWidth {
     grid-column: span 1;
+  }
+  
+  .heroSection h1 {
+    font-size: clamp(3rem, 10vw, 4rem);
   }
 }

@@ -118,6 +118,13 @@ input, textarea, select {
 }
 
 @media (max-width: 768px) {
+  :root {
+    --space-md: 1.5rem;
+    --space-lg: 2.5rem;
+    --space-xl: 4rem;
+    --space-2xl: 6rem;
+  }
+  
   .container {
     padding: 0 var(--space-sm);
   }
