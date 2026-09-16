@@ -64,16 +64,16 @@
 
 .pricingGrid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: var(--space-lg);
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-md);
   align-items: stretch;
 }
 
 .planCard {
   background: var(--bg-surface-elevated);
   border: 1px solid var(--border-subtle);
-  border-radius: 32px;
-  padding: 40px;
+  border-radius: 24px;
+  padding: 32px;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -150,7 +150,7 @@
 }
 
 .price {
-  font-size: 3.5rem;
+  font-size: 2.75rem;
   font-weight: 800;
   letter-spacing: -0.04em;
   color: var(--text-primary);
@@ -260,11 +260,12 @@
   flex-shrink: 0;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .pricingGrid {
-    grid-template-columns: 1fr;
-    max-width: 500px;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 800px;
     margin: 0 auto;
+    gap: var(--space-lg);
   }
   
   .popularCard {
@@ -277,6 +278,11 @@
 }
 
 @media (max-width: 768px) {
+  .pricingGrid {
+    grid-template-columns: 1fr;
+    max-width: 450px;
+  }
+
   .pageWrapper {
     padding-top: 100px;
   }
@@ -286,6 +292,6 @@
   }
   
   .price {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }

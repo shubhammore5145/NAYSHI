@@ -71,27 +71,35 @@ export const siteConfig = {
   ],
   pricing: [
     {
-      tier: "Starter",
-      price: "₹35,000",
-      duration: "starting at",
-      idealFor: "Startups & Small Businesses",
-      features: ["Custom Landing Page", "Responsive Design", "Basic SEO", "Contact Form Integration", "1 Month Free Support"],
-      cta: "Start Building"
+      tier: "Basic",
+      price: "₹3,999",
+      duration: "one-time",
+      idealFor: "Personal & Small Portfolios",
+      features: ["Single Page Website", "Free Domain (.in/.com)", "Mobile Responsive Design", "Contact Form", "1 Month Support"],
+      cta: "Start Basic"
     },
     {
-      tier: "Growth",
-      price: "₹85,000",
+      tier: "Professional",
+      price: "₹6,999",
+      duration: "one-time",
+      idealFor: "Growing Businesses",
+      features: ["Up to 5 Pages Website", "Free Domain (.in/.com)", "Basic SEO Setup", "Social Media Links", "3 Months Support"],
+      cta: "Go Pro"
+    },
+    {
+      tier: "Premium",
+      price: "₹14,999",
       duration: "starting at",
-      idealFor: "Scaling Companies",
-      features: ["Full Web Application", "CMS Integration", "Advanced Animations", "Analytics Setup", "API Integrations", "3 Months Free Support"],
+      idealFor: "E-commerce & Startups",
+      features: ["Full Web Application", "Admin Panel / CMS", "Payment Gateway", "Advanced SEO & Analytics", "Free Domain & Hosting (1 Yr)", "6 Months Support"],
       cta: "Scale Now"
     },
     {
-      tier: "Enterprise",
+      tier: "Custom",
       price: "Custom",
       duration: "tailored pricing",
       idealFor: "Complex Systems & AI",
-      features: ["AI Implementations", "Custom Backend", "Mobile App", "Dedicated 24/7 Support", "Infrastructure Setup", "SLA Guarantee"],
+      features: ["AI Implementations", "Custom Backend", "Mobile App Development", "Dedicated 24/7 Support", "Infrastructure Setup", "SLA Guarantee"],
       cta: "Request a Quote"
     }
   ]

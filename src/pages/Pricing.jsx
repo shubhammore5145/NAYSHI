@@ -39,7 +39,7 @@ const Pricing = () => {
       <section className={styles.pricingSection}>
         <div className={`container ${styles.pricingGrid}`}>
           {siteConfig.pricing.map((plan, idx) => {
-            const isPopular = plan.tier === "Growth";
+            const isPopular = plan.tier === "Premium";
             
             return (
               <motion.div 
