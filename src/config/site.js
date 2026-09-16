@@ -75,7 +75,7 @@ export const siteConfig = {
       price: "₹3,999",
       duration: "one-time",
       idealFor: "Personal & Small Portfolios",
-      features: ["Single Page Website", "Free Domain (.in/.com)", "Mobile Responsive Design", "Contact Form", "1 Month Support"],
+      features: ["Single Page Website", "Free Subdomain (.vercel/.netlify)", "Mobile Responsive Design", "Contact Form", "1 Month Support"],
       cta: "Start Basic"
     },
     {
