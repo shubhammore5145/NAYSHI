@@ -11,6 +11,7 @@ import Solutions from './pages/Solutions';
 import Work from './pages/Work';
 import About from './pages/About';
 import Insights from './pages/Insights';
+import Pricing from './pages/Pricing';
 import Contact from './pages/Contact';
 import ClientPortal from './pages/ClientPortal';
 import NotFound from './pages/NotFound';
@@ -42,6 +43,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/solutions" element={<Solutions />} />
             <Route path="/work" element={<Work />} />
+            <Route path="/plans" element={<Pricing />} />
             <Route path="/about" element={<About />} />
             <Route path="/insights" element={<Insights />} />
             <Route path="/contact" element={<Contact />} />

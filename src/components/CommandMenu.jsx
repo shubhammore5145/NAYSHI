@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Search, Code, Briefcase, Mail, Zap, X } from 'lucide-react';
+import { Search, Code, Briefcase, Mail, Zap, X, CreditCard } from 'lucide-react';
 import styles from './CommandMenu.module.css';
 
 const CommandMenu = ({ isOpen, onClose }) => {
@@ -44,6 +44,10 @@ const CommandMenu = ({ isOpen, onClose }) => {
             <button className={styles.item} onClick={() => navigateTo('/work')}>
               <Briefcase size={18} />
               <span>Selected Work</span>
+            </button>
+            <button className={styles.item} onClick={() => navigateTo('/plans')}>
+              <CreditCard size={18} />
+              <span>Pricing Plans</span>
             </button>
             <button className={styles.item} onClick={() => navigateTo('/contact')}>
               <Zap size={18} />
