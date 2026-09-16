@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowUpRight } from 'lucide-react';
+import { ArrowUpRight, Hexagon } from 'lucide-react';
 import { siteConfig } from '../config/site';
 import styles from './Footer.module.css';
 
@@ -9,7 +9,12 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={`container ${styles.footerGrid}`}>
         <div className={styles.brandCol}>
-          <Link to="/" className={styles.logo}>{siteConfig.name}</Link>
+          <Link to="/" className={styles.logo}>
+            <div className={styles.logoIconWrapper}>
+              <Hexagon size={24} strokeWidth={2.5} className={styles.logoIcon} />
+            </div>
+            {siteConfig.name}
+          </Link>
           <p className={styles.tagline}>Technology, Built Different.</p>
         </div>
 

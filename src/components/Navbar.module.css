@@ -24,11 +24,25 @@
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: -0.05em;
   color: var(--text-primary);
   z-index: 101;
+}
+
+.logoIconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-primary);
+}
+
+.logoIcon {
+  fill: rgba(0, 102, 204, 0.1);
 }
 
 .navLinks {

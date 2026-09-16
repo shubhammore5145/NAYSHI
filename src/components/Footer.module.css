@@ -17,11 +17,25 @@
 }
 
 .logo {
-  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: -0.05em;
   color: var(--text-primary);
-  margin-bottom: var(--space-xs);
+  margin-bottom: var(--space-sm);
+}
+
+.logoIconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-primary);
+}
+
+.logoIcon {
+  fill: rgba(0, 102, 204, 0.1);
 }
 
 .tagline {

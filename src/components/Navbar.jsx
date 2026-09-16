@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Search, Menu, X, Moon, Sun, ArrowRight } from 'lucide-react';
+import { Search, Menu, X, Moon, Sun, ArrowRight, Hexagon } from 'lucide-react';
 import { siteConfig } from '../config/site';
 import styles from './Navbar.module.css';
 
@@ -54,6 +54,9 @@ const Navbar = ({ onOpenCommand }) => {
       <div className={`container ${styles.navContainer}`}>
         
         <Link to="/" className={styles.logo}>
+          <div className={styles.logoIconWrapper}>
+            <Hexagon size={24} strokeWidth={2.5} className={styles.logoIcon} />
+          </div>
           {siteConfig.name}
         </Link>
 
